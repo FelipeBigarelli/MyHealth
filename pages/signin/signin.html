@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="signin.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Averia+Libre&family=Dancing+Script:wght@400;500;600;700&family=Lobster+Two:wght@400;700&display=swap" rel="stylesheet">
+  <title>Entrar</title>
+</head>
+<body>
+  <iframe src="../../components/header-logout/header-logout.html" height="87px" frameborder="0" width="100%"></iframe>
+
+  <div class="signin-content">
+    <form action="/signin-form">
+      <div class="email">
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email">
+      </div>
+      <div class="password">
+        <label for="password">Senha</label>
+        <input type="password" id="password" name="password">
+      </div>
+      <div class="button-signin">
+        <input type="submit" value="Entrar">
+      </div>
+    </form>
+  
+    <a id="a-forgot-password" href="/forgot-password">Esqueci minha senha</a>
+  </div>
+</body>
+</html>

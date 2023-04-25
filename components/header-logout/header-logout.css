@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Averia Libre';
+  font-style: normal;
+  font-weight: 400;
+}
+
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  height: 87px;
+  background: #ffffff;
+  color: #419ED7;
+}
+
+img {
+  height: 51px;
+  width: 51px;
+  padding: 0 16px 0 18px;
+}
+
+h1 {
+  font-size: 48px;
+}
